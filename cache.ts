@@ -4,4 +4,4 @@ interface Task {
   title: string
 }
 
-export const toolVar = makeVar<Task[]>([])
+export const todoVar = makeVar<Task[]>([])
